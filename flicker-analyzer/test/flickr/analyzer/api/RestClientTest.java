@@ -28,7 +28,7 @@ public class RestClientTest extends TestCase {
 	@Before
 	@Override
 	public void setUp() throws ParserConfigurationException {
-		String apiKey = "c55dc6d6b4d2a240d4bca36f680d34b4";
+		String apiKey = "3116811c8f556009c0326eed39146382";
 
 		api = new RestClient(new RestTemplate(), apiKey);
 		documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
