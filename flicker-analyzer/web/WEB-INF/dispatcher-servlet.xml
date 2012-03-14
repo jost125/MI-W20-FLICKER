@@ -11,7 +11,7 @@
 		 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<context:annotation-config />
-	<context:component-scan base-package="flicker.analyzer.controller" />
+	<context:component-scan base-package="flickr.analyzer.controller" />
 
 	<bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver"
